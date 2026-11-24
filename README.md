@@ -49,7 +49,7 @@ cover-machine/
 **方式一：命令行**
 
 ```bash
-git clone <本仓库地址> cover-machine
+git clone https://github.com/huding1995/cover-machine.git
 cd cover-machine
 bash install.sh
 ```
@@ -71,7 +71,7 @@ bash install.sh
 
 把仓库链接丢给新电脑上的智能体，附带这句话：
 
-> 克隆这个仓库，跑 `bash install.sh`，它会把「封面机」和「做封面」两个技能装到 `~/.workbuddy/skills/`。装完我来出封面，你按 `skills/封面机/SKILL.md` 的流程走：新书先给我 15 套文案让我选，之后按预设循环自动出图。
+> 克隆 `https://github.com/huding1995/cover-machine` ，跑 `bash install.sh`，它会把「封面机」和「做封面」两个技能装到 `~/.workbuddy/skills/`。装完我来出封面，你按 `skills/封面机/SKILL.md` 的流程走：新书先给我 15 套文案让我选，之后按预设循环自动出图。
 
 智能体读完 `skills/封面机/SKILL.md` 就能完整复现能力，不依赖任何历史对话。
 
